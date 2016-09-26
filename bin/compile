@@ -27,5 +27,5 @@ fi
 tasks=(`echo ${DEPLOY_TASKS}`)
 cd $build_dir
 for task in ${tasks[@]}; do
-  rake $task
+  rails $task
 done
